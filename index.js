@@ -18,5 +18,5 @@ function destructivelyRemoveFirstDriver(){
 }
 
 function appendDriver(name) {
-  drivers.splice(1, -1, name);
+  drivers.splice(0, -1, name);
 }
